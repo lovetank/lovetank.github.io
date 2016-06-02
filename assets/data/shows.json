@@ -1,0 +1,23 @@
+[
+  {
+    "date" : "2016-07-28T20:00:00",
+    "venue" : {
+      "name" : "Herman's Hideaway",
+      "address" : "11442 Cheviot Cir",
+      "city" : "Houston",
+      "state" : "TX",
+      "website" : "http://hermanshideaway.com"
+    },
+    "with" : [
+      {
+        "name" : "Born Readies",
+        "website" : "http://bornreadies.com"
+      }
+    ],
+    "tickets" : {
+      "cost" : 5.00,
+      "website" : "http://ticketmaster.com"
+    },
+    "notes" : "18+"
+  }
+]
