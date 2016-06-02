@@ -169,28 +169,27 @@
 			else {
 				$.ajax({
 					type: "POST",
-					url: "assets/php/contactForm.php",
+					url: "https://sheetsu.com/apis/v1.0/136fd545dc07",
 					dataType: 'json',
 					data: {
-						c_email: c_email,
-						c_name: c_name,
-						c_message: c_message
+						email: c_email,
+						name: c_name,
+						message: c_message
 					},
 					beforeSend: function(result) {
 						$('#contact-form button').empty();
 						$('#contact-form button').append('<i class="fa fa-cog fa-spin"></i> Wait...');
 					},
 					success: function(result) {
-						if(result.sendstatus == 1) {
-							responseMessage.html(result.message);
-							responseMessage.fadeIn(500);
-							$('#contact-form').fadeOut(500);
-						} else {
-							$('#contact-form button').empty();
-							$('#contact-form button').append('<i class="fa fa-retweet"></i> Try again.');
-							responseMessage.html(result.message);
-							responseMessage.fadeIn(1000);
-						}
+						responseMessage.html(result.message);
+						responseMessage.fadeIn(500);
+						$('#contact-form').fadeOut(500);
+					},
+					error: function(result) {
+						$('#contact-form button').empty();
+						$('#contact-form button').append('<i class="fa fa-retweet"></i> Try again.');
+						responseMessage.html(result.message);
+						responseMessage.fadeIn(1000);
 					}
 				});
 			}
