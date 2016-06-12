@@ -34,7 +34,7 @@
 		 * Background image
 		/* ---------------------------------------------- */
 
-		$('#intro').backstretch(['assets/images/stage1.png']);
+		$('#intro').backstretch(['assets/images/lovetankband.jpg']);
 
 		/* ---------------------------------------------- /*
 		 * Navbar
