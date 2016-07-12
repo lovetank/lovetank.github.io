@@ -34,7 +34,7 @@
 		 * Background image
 		/* ---------------------------------------------- */
 
-		$('#intro').backstretch(['assets/images/lovetank.jpg']);
+		//$('#intro').backstretch(['assets/images/lovetank_3 cropped.jpg']);
 
 		/* ---------------------------------------------- /*
 		 * Navbar
