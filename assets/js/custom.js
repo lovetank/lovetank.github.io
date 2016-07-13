@@ -115,7 +115,7 @@
 		 * Portfolio pop up
 		/* ---------------------------------------------- */
 
-		$('#portfolio').magnificPopup({
+		$('#media').magnificPopup({
 			delegate: 'a.pop-up',
 			type: 'image',
 			gallery: {
