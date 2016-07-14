@@ -10,6 +10,13 @@
 	});
 
 	$(document).ready(function() {
+		$('#android_data').click(function(e){
+			showAndroidToast('Hello Android!');
+		});
+
+		function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
 
 		$('body').scrollspy({
 			target: '.navbar-custom',
