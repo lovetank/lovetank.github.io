@@ -14,9 +14,7 @@
 			showAndroidToast('Hello Android!');
 		});
 
-		function showAndroidToast(toast) {
-        Android.showToast(toast);
-    }
+		
 
 		$('body').scrollspy({
 			target: '.navbar-custom',
