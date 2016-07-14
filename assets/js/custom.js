@@ -10,11 +10,6 @@
 	});
 
 	$(document).ready(function() {
-		$('#android_data').click(function(e){
-			showAndroidToast('Hello Android!');
-		});
-
-		
 
 		$('body').scrollspy({
 			target: '.navbar-custom',
