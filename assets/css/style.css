@@ -511,10 +511,11 @@ h3 > .fa {
 	padding: 350px 0 160px 0;
 	text-align: center;
 	color: #FFF;
-	background-image: url('../images/lovetank_8_cropped.jpg');
+	background-image: url('../images/lovetank_cover.jpg');
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	max-height: 600px;
 }
 
 
@@ -765,7 +766,8 @@ h3 > .fa {
 	}
 
 	#intro{
-		background-image: url('../images/lovetank_10_cropped.jpg');
+		background-image: url('../images/lovetank_mobile_bw.jpg');
+		max-height: 545px;
 	}
 
 }
